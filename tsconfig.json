@@ -3,6 +3,7 @@
       "target": "es6",
       "lib": ["es6", "dom"],
       "types": ["cypress", "node"],
+      "typeRoots": ["./cypress/types/commands.d.ts"],
       "moduleResolution": "node",
       "isolatedModules": true,
       "noEmit": true,
